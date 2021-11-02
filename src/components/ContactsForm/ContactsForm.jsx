@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
-import { saveContact } from 'redux/contacts/contacts-actions';
+import { addContact } from 'redux/contacts/contacts-operations';
 
 const Label = styled.label`
   display: flex;
@@ -80,7 +80,7 @@ export default function ContactsForm() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(saveContact({ name, number }));
+    dispatch(addContact({ name, number }));
     resetFields();
   };
 

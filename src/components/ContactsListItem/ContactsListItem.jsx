@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/contacts/contacts-actions';
+import { deleteContact } from 'redux/contacts/contacts-operations';
 
 const Button = styled.button`
   padding: 5px 10px;
@@ -23,7 +23,7 @@ const P = styled.p`
   font-size: 25px;
 `;
 
-export default function ContactsListItem({ contact: { name, number } }) {
+export default function ContactsListItem({ contact: { name, number, id } }) {
   const dispatch = useDispatch();
   return (
     <>
@@ -33,7 +33,7 @@ export default function ContactsListItem({ contact: { name, number } }) {
       <Button
         type="button"
         onClick={() => {
-          dispatch(deleteContact(number));
+          dispatch(deleteContact(id));
         }}
       >
         delete

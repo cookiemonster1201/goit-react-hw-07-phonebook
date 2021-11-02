@@ -30,7 +30,7 @@ export default function ContactsList() {
 
   const filteredContacts = filterContacts(contacts, value);
 
-  return filteredContacts?.length > 0 ? (
+  return filteredContacts.length > 0 ? (
     <Ul>
       {[...filteredContacts]
         .sort((contactA, contactB) =>

@@ -1,6 +1,6 @@
 import { createReducer } from '@reduxjs/toolkit';
-import { UPDATE_FILTER } from './filter-actionTypes';
+import { updateFilter } from 'redux/filter/filter-actions';
 
 export const filter = createReducer('', {
-  [UPDATE_FILTER]: (_, { payload }) => payload,
+  [updateFilter]: (_, { payload }) => payload,
 });

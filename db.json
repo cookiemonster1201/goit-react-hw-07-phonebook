@@ -1,6 +1,19 @@
 {
   "contacts": [
-    { "id": 1, "name": "kot v sapogah", "number": "54 77 89" },
-    { "id": 2, "name": "kogah", "number": "547878 89" }
+    {
+      "name": "Anna Doe",
+      "number": "9459274",
+      "id": 3
+    },
+    {
+      "name": "Alona",
+      "number": "9834765",
+      "id": 4
+    },
+    {
+      "name": "Alex Sd",
+      "number": "836986",
+      "id": 5
+    }
   ]
 }

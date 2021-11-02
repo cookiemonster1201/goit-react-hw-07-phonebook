@@ -3,5 +3,5 @@ export default function filterContacts(contacts, value) {
     ? contacts.filter(contact =>
         contact.name.toLowerCase().includes(value.trim().toLowerCase()),
       )
-    : null;
+    : [];
 }
