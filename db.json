@@ -1,19 +1,9 @@
 {
   "contacts": [
     {
-      "name": "Anna Doe",
-      "number": "9459274",
+      "name": "Alona Mykytiuk",
+      "number": "+380995005437",
       "id": 3
-    },
-    {
-      "name": "Alona",
-      "number": "9834765",
-      "id": 4
-    },
-    {
-      "name": "Alex Sd",
-      "number": "836986",
-      "id": 5
     }
   ]
 }

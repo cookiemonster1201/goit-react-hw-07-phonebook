@@ -1,12 +1,15 @@
 @import 'modern-normalize/modern-normalize.css';
 
+:root {
+  --main-font-family: 'DM Sans', sans-serif;
+  --title-font-family: 'Titan One', cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background: rgb(255, 169, 124);
-  background: radial-gradient(
-    circle,
-    rgba(255, 169, 124, 1) 0%,
-    rgba(70, 154, 90, 1) 100%
-  );
+  background-color: #fff;
+  font-family: var(--main-font-family);
 }
 
 img {
@@ -33,4 +36,8 @@ li,
 ul {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
