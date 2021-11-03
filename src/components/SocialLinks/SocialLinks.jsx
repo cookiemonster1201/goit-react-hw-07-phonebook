@@ -4,7 +4,7 @@ import { ReactComponent as Facebook } from './icons/facebook.svg';
 import { ReactComponent as Instagram } from './icons/instagram.svg';
 
 const Ul = styled.ul`
-  padding: 10px 90px;
+  padding: 20px 90px;
   display: flex;
   background-color: #fff;
   list-style: none;
